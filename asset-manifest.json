@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-products-app/static/css/main.17f5d266.css",
-    "main.js": "/react-products-app/static/js/main.ca3b2a99.js",
+    "main.js": "/react-products-app/static/js/main.310d75a9.js",
     "static/js/787.1937f22b.chunk.js": "/react-products-app/static/js/787.1937f22b.chunk.js",
     "static/media/MONTSERRAT-MEDIUM.OTF": "/react-products-app/static/media/MONTSERRAT-MEDIUM.4b4a4b36283ebeb2cf89.OTF",
     "static/media/ZHUM601N.TTF": "/react-products-app/static/media/ZHUM601N.a86c8777599d3a192237.TTF",
     "index.html": "/react-products-app/index.html",
     "main.17f5d266.css.map": "/react-products-app/static/css/main.17f5d266.css.map",
-    "main.ca3b2a99.js.map": "/react-products-app/static/js/main.ca3b2a99.js.map",
+    "main.310d75a9.js.map": "/react-products-app/static/js/main.310d75a9.js.map",
     "787.1937f22b.chunk.js.map": "/react-products-app/static/js/787.1937f22b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17f5d266.css",
-    "static/js/main.ca3b2a99.js"
+    "static/js/main.310d75a9.js"
   ]
 }
