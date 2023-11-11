@@ -39,11 +39,11 @@ function App() {
   return (
     <div className="App">
       <div className="md:container mx-auto">
-        <div className="lg:w-2/3 md:w-4/5 sm:w-10/12 mx-auto ">
+        <div className=" w-11/12 lg:w-2/3 md:w-4/5 sm:w-10/12 mx-auto ">
           <div className="header">
             <div className="flex items-center justify-between pt-8 pb-8">
               <h1 className="text-2xl font-semibold text-left">
-                MY JEWELRY STORE
+                <a href="/react-products-app/"> MY JEWELRY STORE</a>
               </h1>
               <div className="flex space-x-5">
                 <img
@@ -62,23 +62,20 @@ function App() {
                   )}{" "}
                 </div>
                 <div className={`cart ${cartOpen ? "block" : "hidden"}`}>
-                  <div className="cart fixed inset-0 flex items-center justify-center z-50">
-                    <div className="fixed inset-0 bg-black opacity-50"></div>
-                    <div className="relative w-1/2 h-full bg-white shadow-lg transform translate-x-full">
-                      <div className="absolute top-0 left-0 p-4">
+                  <div className="cart fixed inset-0 flex items-center  z-50">
+                    <div className="fixed inset-0 bg-black opacity-50   "></div>
+                    <div className=" lg:w-3/4 w-1/2 h-full bg-white shadow-lg transform translate-x-full">
+                      <div className=" flex   p-4">
                         <button onClick={toggleCart}>X</button>
                       </div>
-                      <div className="p-8">
+                      <div className="  flex     p-8">
                         <ul>
                           {cart.map((item) => (
-                            <li
-                              key={item.id}
-                              className="flex items-center justify-between"
-                            >
-                              <div className="flex items-center  p-2 ">
+                            <li key={item.id} className=" ">
+                              <div className="     p-2 ">
                                 <img
                                   src={item.image}
-                                  className="w-12 h-12"
+                                  className="w-12 h-12 mx-auto"
                                   alt={item.title}
                                 />
                                 <span>{item.title}</span>
@@ -93,10 +90,10 @@ function App() {
                             </li>
                           ))}
                         </ul>
-                        <p className=" pt-3  pr-36 ">
-                          Total Price: ${getTotalPrice().toFixed(2)}
-                        </p>
                       </div>
+                      <p className=" flex pt-3 pl-5  ">
+                        Total Price: ${getTotalPrice().toFixed(2)}
+                      </p>
                     </div>
                   </div>
                 </div>
