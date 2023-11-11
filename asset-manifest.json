@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-products-app/static/css/main.533b3b3f.css",
-    "main.js": "/react-products-app/static/js/main.13797891.js",
+    "main.css": "/react-products-app/static/css/main.aaa6a6af.css",
+    "main.js": "/react-products-app/static/js/main.2c058a5d.js",
     "static/js/787.1937f22b.chunk.js": "/react-products-app/static/js/787.1937f22b.chunk.js",
     "static/media/MONTSERRAT-MEDIUM.OTF": "/react-products-app/static/media/MONTSERRAT-MEDIUM.4b4a4b36283ebeb2cf89.OTF",
     "static/media/ZHUM601N.TTF": "/react-products-app/static/media/ZHUM601N.a86c8777599d3a192237.TTF",
     "index.html": "/react-products-app/index.html",
-    "main.533b3b3f.css.map": "/react-products-app/static/css/main.533b3b3f.css.map",
-    "main.13797891.js.map": "/react-products-app/static/js/main.13797891.js.map",
+    "main.aaa6a6af.css.map": "/react-products-app/static/css/main.aaa6a6af.css.map",
+    "main.2c058a5d.js.map": "/react-products-app/static/js/main.2c058a5d.js.map",
     "787.1937f22b.chunk.js.map": "/react-products-app/static/js/787.1937f22b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.533b3b3f.css",
-    "static/js/main.13797891.js"
+    "static/css/main.aaa6a6af.css",
+    "static/js/main.2c058a5d.js"
   ]
 }
