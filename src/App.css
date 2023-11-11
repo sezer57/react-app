@@ -1,3 +1,59 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.product-title {
+  font-size: 15px;
+  font-family: "MONTSERRAT";
+  font-weight: 500;
+  margin-top: 8px;
+}
+#searchBar {
+  display: none;
+}
+.product-price {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "MONTSERRAT";
+}
+.footer-1 {
+  font-size: 19pt;
+  font-family: "ZHUM601N";
+}
+.footer-2 {
+  margin-top: 10px;
+  font-size: 16pt;
+  font-family: "MONTSERRAT";
+}
+@media (max-width: 980px) {
+  .product-title {
+    font-size: 10px;
+  }
+
+  .product-price {
+    font-size: 12px;
+  }
+}
+@media (max-width: 640px) {
+  .product-title {
+    font-size: 10px;
+  }
+
+  .product-price {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .product-title {
+    font-size: 12px;
+  }
+
+  .product-price {
+    font-size: 14px;
+  }
+}
+
 .App {
   text-align: center;
 }
